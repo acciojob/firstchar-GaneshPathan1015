@@ -1,10 +1,9 @@
 function firstChar(text) {
   // your code here
-	text=text.split(" ").join("");
-	if(s.length === 0){
-		return s;
-	}
-	return s[0];
+
+	let stringwithouspace = text.replace(/\s/g,'');
+	return stringwithouspace.charAt(0);
+	
 }
 
 // Do not change the code below
